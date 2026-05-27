@@ -7,3 +7,9 @@ xcuserdata
 Documentation
 DerivedData
 build
+
+# SwiftPM
+.build/
+.swiftpm/
+Packages/
+Package.resolved
