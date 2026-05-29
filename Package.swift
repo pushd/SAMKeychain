@@ -16,9 +16,6 @@ let package = Package(
         .target(
             name: "SAMKeychain",
             path: "Sources",
-            resources: [
-                .copy("../Support/SAMKeychain.bundle"),
-            ],
             publicHeadersPath: ".",
             linkerSettings: [
                 .linkedFramework("Security"),
